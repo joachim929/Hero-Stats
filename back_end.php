@@ -4,8 +4,8 @@ insertReplays();
 
 function insertReplays(){
     $servername = "localhost";
-    $username = "hots_stats";
-    $password = "123";
+    $username = "<insert username>";
+    $password = "<insert password>";
     $dbname = "hots_stats";
 
 
@@ -19,7 +19,7 @@ function insertReplays(){
         $json = json_decode($content, true);
         $dbManager->prepareReplay();
 
-//        $dbManager->beginTransaction();
+
 
         for ($i = 0; $i <6; $i++) {
 
@@ -32,7 +32,7 @@ function insertReplays(){
             $processed = $json[$i]['processed'];
             $dbManager->bindReplayParam($replay_id, $game_date, $game_type, $game_map, $game_version, $region, $processed);
             $replayExists = $dbManager->checkReplayExistsById($replay_id);
-//            $dbManager->executeInsertReplay();
+
             if ($replayExists) {
                 if ($processed) {
                     echo $json[$i]['id'] . " was processed, adding to replays and dumpSingleReplay gets called<br>";
@@ -48,11 +48,11 @@ function insertReplays(){
             $last_id = $replay_id + 1;
             $dbManager->updateTracker($last_id);
         }
-//        $dbManager->commit();
+
 
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
-//        $dbManager->rollBack();
+
     }
     $dbManager->closeConn();
 }

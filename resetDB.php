@@ -1,25 +1,14 @@
 <?php
 $servername = "localhost";
-$username = "hots_stats";
-$password = "123";
+$username = "<insert username>";
+$password = "<insert password>";
 $dbname = "hots_stats";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//    $dropKeys = $conn->prepare("ALTER TABLE played_heroes
-//        DROP FOREIGN KEY played_heroes_ibfk_1,
-//        DROP FOREIGN KEY played_heroes_ibfk_2
-//    ");
-//    $dropKeys->execute();
-//    unset($dropKeys);
-//    $dropKeys = $conn->prepare("ALTER TABLE bans
-//        DROP FOREIGN KEY bans_ibfk_1,
-//        DROP FOREIGN KEY bans_ibfk_2
-//    ");
-//    $dropKeys->execute();
-//    unset($dropKeys);
+
     $dropStmt = $conn->prepare("DROP TABLE IF EXISTS replays, played_heroes, hero_stats, bans, replay_tracker");
     $dropStmt->execute();
     unset($dropStmt);

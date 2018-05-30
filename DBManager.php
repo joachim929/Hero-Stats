@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Tobi
- * Date: 2/21/2018
- * Time: 8:01 PM
- */
+
 class DBManager
 {
     /**
@@ -118,7 +113,7 @@ class DBManager
                 $win_count = $calcUpdateHeroReturn[0];
                 $play_count = $calcUpdateHeroReturn[1];
                 $win_rate = $calcUpdateHeroReturn[2];
-//                echo "Wincount: ".$win_count." Playcount: ".$play_count." Winrate:".$win_rate."<br>";
+
                 $this->prepareHeroUpdate();
                 $this->bindHeroUpdateParam($hero_name, $win_count, $play_count, $win_rate);
                 $this->executeHeroUpdate();
