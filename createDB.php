@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "<insert username>";
 $password = "<insert password>";
 $dbname = "hots_stats";
-
+/* Used to create Database with ease, saves a lot of time if something goes wrong during testing */
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

@@ -25,7 +25,7 @@ class DBManager
     }
     /**
      * @return int replayId
-     *
+     *  Used as a starting point to start getting new replays
      */
     function getTracker(){
         $replay_tracker = $this->conn->prepare("SELECT last_id FROM replay_tracker");
@@ -37,6 +37,7 @@ class DBManager
 
     /**
      * @param int $last_id
+     * Used so getTracker() knows where to start off from again
      */
     function updateTracker($last_id){
         $tracker_update = $this->conn->prepare("UPDATE replay_tracker SET `last_id` = :last_id WHERE id=1");
@@ -79,6 +80,7 @@ class DBManager
     /**
      * @param int $replayId
      * @return bool
+     * Checks to see if replay already exists, is made as an effort to stop duplicates from trying to enter the database
      */
     function checkReplayExistsById($replayId){
         $get_replays =  $this->conn->prepare("SELECT * FROM replays WHERE replay_id = :replay_id");
@@ -91,6 +93,9 @@ class DBManager
         return true;
     }
 
+    /**
+     * Inserts all available data into database
+     */
     function insertPlayedHeroes(int $replayId){
         $url = 'http://hotsapi.net/api/v1/replays/'.$replayId;
         $content = file_get_contents($url);
@@ -171,6 +176,8 @@ class DBManager
      * @param array $talentInQuestion
      * @param int $j
      * @return null
+     * Some games are shorter than others, so in some games talents aren't all unlocked,
+     * checks to see how many talents are unlocked so the database doesn't get unwanted values
      */
     function doesTalentExist($talentInQuestion, int $j){
         if(isset($talentInQuestion[$j])){

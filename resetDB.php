@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "<insert username>";
 $password = "<insert password>";
 $dbname = "hots_stats";
-
+/* Used to completely wipe the database and create a new empty one, used to save time during testing */
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     // set the PDO error mode to exception

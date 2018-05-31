@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e16a574-a9bb-4ade-b102-ac6d476ad73d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hots_stats.sql" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/moretesting.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/while_back_end.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBManager.php" afterPath="$PROJECT_DIR$/DBManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back_end.php" afterPath="$PROJECT_DIR$/back_end.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createDB.php" afterPath="$PROJECT_DIR$/createDB.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end.js" afterPath="$PROJECT_DIR$/front_end.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_hero_stats.php" afterPath="$PROJECT_DIR$/get_hero_stats.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resetDB.php" afterPath="$PROJECT_DIR$/resetDB.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +31,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -64,13 +58,13 @@
         <option value="$PROJECT_DIR$/moretesting.php" />
         <option value="$PROJECT_DIR$/testing.php" />
         <option value="$PROJECT_DIR$/while_back_end.php" />
-        <option value="$PROJECT_DIR$/DBManager.php" />
         <option value="$PROJECT_DIR$/front_end.js" />
-        <option value="$PROJECT_DIR$/createDB.php" />
-        <option value="$PROJECT_DIR$/resetDB.php" />
+        <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/get_hero_stats.php" />
         <option value="$PROJECT_DIR$/back_end.php" />
-        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/DBManager.php" />
+        <option value="$PROJECT_DIR$/createDB.php" />
+        <option value="$PROJECT_DIR$/resetDB.php" />
       </list>
     </option>
   </component>
@@ -102,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -116,7 +111,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -179,6 +173,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -231,16 +231,18 @@
       <workItem from="1523453306036" duration="622000" />
       <workItem from="1523465781493" duration="15000" />
       <workItem from="1527668119053" duration="1235000" />
+      <workItem from="1527669969136" duration="8000" />
+      <workItem from="1527754023065" duration="995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41849000" />
+    <option name="totallyTimeSpent" value="42852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18496802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -271,36 +273,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DBManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <marker date="1527668180438" expanded="true" signature="582:616" ph="SELECT last_... replay_tracker" />
-            <marker date="1527668180438" expanded="true" signature="886:943" ph="UPDATE replay_tracker... " />
-            <marker date="1527668180438" expanded="true" signature="1929:2128" ph="INSERT INTO replays... " />
-            <marker date="1527668180438" expanded="true" signature="2381:2431" ph="SELECT * FRO... replays" />
-            <marker date="1527668180438" expanded="true" signature="8641:10136" ph="INSERT INTO played_heroes... " />
-            <marker date="1527668180438" expanded="true" signature="13261:13285" ph="SELECT * FRO... hero_stats" />
-            <marker date="1527668180438" expanded="true" signature="13499:13601" ph="INSERT INTO hero_stats... " />
-            <marker date="1527668180438" expanded="true" signature="14907:15028" ph="UPDATE hero_stats... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resetDB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
-            <marker date="1527669626320" expanded="true" signature="358:435" ph="DROP TABLE I... " />
-            <marker date="1527669626320" expanded="true" signature="532:894" ph="CREATE TABLE... replays" />
-            <marker date="1527669626320" expanded="true" signature="913:1143" ph="CREATE TABLE... hero_stats" />
-            <marker date="1527669626320" expanded="true" signature="1162:2643" ph="CREATE TABLE... played_heroes" />
-            <marker date="1527669626320" expanded="true" signature="2662:2772" ph="CREATE TABLE... replay_tracker" />
-            <marker date="1527669626320" expanded="true" signature="2791:3079" ph="CREATE TABLE... bans" />
-            <marker date="1527669626320" expanded="true" signature="3098:3169" ph="INSERT INTO `replay_tracker`... " />
-            <marker date="1527669626320" expanded="true" signature="3410:3563" ph="INSERT INTO hero_stats... " />
+            <marker date="1527755018601" expanded="true" signature="461:538" ph="DROP TABLE I... " />
+            <marker date="1527755018601" expanded="true" signature="635:997" ph="CREATE TABLE... replays" />
+            <marker date="1527755018601" expanded="true" signature="1016:1246" ph="CREATE TABLE... hero_stats" />
+            <marker date="1527755018601" expanded="true" signature="1265:2746" ph="CREATE TABLE... played_heroes" />
+            <marker date="1527755018601" expanded="true" signature="2765:2875" ph="CREATE TABLE... replay_tracker" />
+            <marker date="1527755018601" expanded="true" signature="2894:3182" ph="CREATE TABLE... bans" />
+            <marker date="1527755018601" expanded="true" signature="3201:3272" ph="INSERT INTO `replay_tracker`... " />
+            <marker date="1527755018601" expanded="true" signature="3513:3666" ph="INSERT INTO hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -310,7 +295,7 @@
         <state relative-caret-position="425">
           <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
-            <marker date="1527669626300" expanded="true" signature="246:293" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754474850" expanded="true" signature="319:366" ph="SELECT * FRO... hero_stats" />
           </folding>
         </state>
       </provider>
@@ -327,7 +312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -336,45 +320,27 @@
         <state relative-caret-position="425">
           <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
-            <marker date="1527669626300" expanded="true" signature="246:293" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754474850" expanded="true" signature="319:366" ph="SELECT * FRO... hero_stats" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="36" lean-forward="false" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while_back_end.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moretesting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.php" />
+    <entry file="file://$PROJECT_DIR$/while_back_end.php" />
+    <entry file="file://$PROJECT_DIR$/moretesting.php" />
     <entry file="file://$PROJECT_DIR$/DBManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1527668180438" expanded="true" signature="582:616" ph="SELECT last_... replay_tracker" />
-            <marker date="1527668180438" expanded="true" signature="886:943" ph="UPDATE replay_tracker... " />
-            <marker date="1527668180438" expanded="true" signature="1929:2128" ph="INSERT INTO replays... " />
-            <marker date="1527668180438" expanded="true" signature="2381:2431" ph="SELECT * FRO... replays" />
-            <marker date="1527668180438" expanded="true" signature="8641:10136" ph="INSERT INTO played_heroes... " />
-            <marker date="1527668180438" expanded="true" signature="13261:13285" ph="SELECT * FRO... hero_stats" />
-            <marker date="1527668180438" expanded="true" signature="13499:13601" ph="INSERT INTO hero_stats... " />
-            <marker date="1527668180438" expanded="true" signature="14907:15028" ph="UPDATE hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="637:671" ph="SELECT last_... replay_tracker" />
+            <marker date="1527754973654" expanded="true" signature="1005:1062" ph="UPDATE replay_tracker... " />
+            <marker date="1527754973654" expanded="true" signature="2048:2247" ph="INSERT INTO replays... " />
+            <marker date="1527754973654" expanded="true" signature="2621:2671" ph="SELECT * FRO... replays" />
+            <marker date="1527754973654" expanded="true" signature="9129:10624" ph="INSERT INTO played_heroes... " />
+            <marker date="1527754973654" expanded="true" signature="13749:13773" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754973654" expanded="true" signature="13987:14089" ph="INSERT INTO hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="15395:15516" ph="UPDATE hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -384,14 +350,14 @@
         <state relative-caret-position="578">
           <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
-            <marker date="1527669626320" expanded="true" signature="358:435" ph="DROP TABLE I... " />
-            <marker date="1527669626320" expanded="true" signature="532:894" ph="CREATE TABLE... replays" />
-            <marker date="1527669626320" expanded="true" signature="913:1143" ph="CREATE TABLE... hero_stats" />
-            <marker date="1527669626320" expanded="true" signature="1162:2643" ph="CREATE TABLE... played_heroes" />
-            <marker date="1527669626320" expanded="true" signature="2662:2772" ph="CREATE TABLE... replay_tracker" />
-            <marker date="1527669626320" expanded="true" signature="2791:3079" ph="CREATE TABLE... bans" />
-            <marker date="1527669626320" expanded="true" signature="3098:3169" ph="INSERT INTO `replay_tracker`... " />
-            <marker date="1527669626320" expanded="true" signature="3410:3563" ph="INSERT INTO hero_stats... " />
+            <marker date="1527755018601" expanded="true" signature="461:538" ph="DROP TABLE I... " />
+            <marker date="1527755018601" expanded="true" signature="635:997" ph="CREATE TABLE... replays" />
+            <marker date="1527755018601" expanded="true" signature="1016:1246" ph="CREATE TABLE... hero_stats" />
+            <marker date="1527755018601" expanded="true" signature="1265:2746" ph="CREATE TABLE... played_heroes" />
+            <marker date="1527755018601" expanded="true" signature="2765:2875" ph="CREATE TABLE... replay_tracker" />
+            <marker date="1527755018601" expanded="true" signature="2894:3182" ph="CREATE TABLE... bans" />
+            <marker date="1527755018601" expanded="true" signature="3201:3272" ph="INSERT INTO `replay_tracker`... " />
+            <marker date="1527755018601" expanded="true" signature="3513:3666" ph="INSERT INTO hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -404,40 +370,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="36" lean-forward="false" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while_back_end.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moretesting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.php" />
+    <entry file="file://$PROJECT_DIR$/while_back_end.php" />
+    <entry file="file://$PROJECT_DIR$/moretesting.php" />
     <entry file="file://$PROJECT_DIR$/DBManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1527668180438" expanded="true" signature="582:616" ph="SELECT last_... replay_tracker" />
-            <marker date="1527668180438" expanded="true" signature="886:943" ph="UPDATE replay_tracker... " />
-            <marker date="1527668180438" expanded="true" signature="1929:2128" ph="INSERT INTO replays... " />
-            <marker date="1527668180438" expanded="true" signature="2381:2431" ph="SELECT * FRO... replays" />
-            <marker date="1527668180438" expanded="true" signature="8641:10136" ph="INSERT INTO played_heroes... " />
-            <marker date="1527668180438" expanded="true" signature="13261:13285" ph="SELECT * FRO... hero_stats" />
-            <marker date="1527668180438" expanded="true" signature="13499:13601" ph="INSERT INTO hero_stats... " />
-            <marker date="1527668180438" expanded="true" signature="14907:15028" ph="UPDATE hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="637:671" ph="SELECT last_... replay_tracker" />
+            <marker date="1527754973654" expanded="true" signature="1005:1062" ph="UPDATE replay_tracker... " />
+            <marker date="1527754973654" expanded="true" signature="2048:2247" ph="INSERT INTO replays... " />
+            <marker date="1527754973654" expanded="true" signature="2621:2671" ph="SELECT * FRO... replays" />
+            <marker date="1527754973654" expanded="true" signature="9129:10624" ph="INSERT INTO played_heroes... " />
+            <marker date="1527754973654" expanded="true" signature="13749:13773" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754973654" expanded="true" signature="13987:14089" ph="INSERT INTO hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="15395:15516" ph="UPDATE hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -447,14 +395,14 @@
         <state relative-caret-position="578">
           <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
-            <marker date="1527669626320" expanded="true" signature="358:435" ph="DROP TABLE I... " />
-            <marker date="1527669626320" expanded="true" signature="532:894" ph="CREATE TABLE... replays" />
-            <marker date="1527669626320" expanded="true" signature="913:1143" ph="CREATE TABLE... hero_stats" />
-            <marker date="1527669626320" expanded="true" signature="1162:2643" ph="CREATE TABLE... played_heroes" />
-            <marker date="1527669626320" expanded="true" signature="2662:2772" ph="CREATE TABLE... replay_tracker" />
-            <marker date="1527669626320" expanded="true" signature="2791:3079" ph="CREATE TABLE... bans" />
-            <marker date="1527669626320" expanded="true" signature="3098:3169" ph="INSERT INTO `replay_tracker`... " />
-            <marker date="1527669626320" expanded="true" signature="3410:3563" ph="INSERT INTO hero_stats... " />
+            <marker date="1527755018601" expanded="true" signature="461:538" ph="DROP TABLE I... " />
+            <marker date="1527755018601" expanded="true" signature="635:997" ph="CREATE TABLE... replays" />
+            <marker date="1527755018601" expanded="true" signature="1016:1246" ph="CREATE TABLE... hero_stats" />
+            <marker date="1527755018601" expanded="true" signature="1265:2746" ph="CREATE TABLE... played_heroes" />
+            <marker date="1527755018601" expanded="true" signature="2765:2875" ph="CREATE TABLE... replay_tracker" />
+            <marker date="1527755018601" expanded="true" signature="2894:3182" ph="CREATE TABLE... bans" />
+            <marker date="1527755018601" expanded="true" signature="3201:3272" ph="INSERT INTO `replay_tracker`... " />
+            <marker date="1527755018601" expanded="true" signature="3513:3666" ph="INSERT INTO hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -467,40 +415,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="36" lean-forward="false" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while_back_end.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moretesting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.php" />
+    <entry file="file://$PROJECT_DIR$/while_back_end.php" />
+    <entry file="file://$PROJECT_DIR$/moretesting.php" />
     <entry file="file://$PROJECT_DIR$/DBManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="0" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1527668180438" expanded="true" signature="582:616" ph="SELECT last_... replay_tracker" />
-            <marker date="1527668180438" expanded="true" signature="886:943" ph="UPDATE replay_tracker... " />
-            <marker date="1527668180438" expanded="true" signature="1929:2128" ph="INSERT INTO replays... " />
-            <marker date="1527668180438" expanded="true" signature="2381:2431" ph="SELECT * FRO... replays" />
-            <marker date="1527668180438" expanded="true" signature="8641:10136" ph="INSERT INTO played_heroes... " />
-            <marker date="1527668180438" expanded="true" signature="13261:13285" ph="SELECT * FRO... hero_stats" />
-            <marker date="1527668180438" expanded="true" signature="13499:13601" ph="INSERT INTO hero_stats... " />
-            <marker date="1527668180438" expanded="true" signature="14907:15028" ph="UPDATE hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="637:671" ph="SELECT last_... replay_tracker" />
+            <marker date="1527754973654" expanded="true" signature="1005:1062" ph="UPDATE replay_tracker... " />
+            <marker date="1527754973654" expanded="true" signature="2048:2247" ph="INSERT INTO replays... " />
+            <marker date="1527754973654" expanded="true" signature="2621:2671" ph="SELECT * FRO... replays" />
+            <marker date="1527754973654" expanded="true" signature="9129:10624" ph="INSERT INTO played_heroes... " />
+            <marker date="1527754973654" expanded="true" signature="13749:13773" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754973654" expanded="true" signature="13987:14089" ph="INSERT INTO hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="15395:15516" ph="UPDATE hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -510,14 +440,14 @@
         <state relative-caret-position="578">
           <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
-            <marker date="1527669626320" expanded="true" signature="358:435" ph="DROP TABLE I... " />
-            <marker date="1527669626320" expanded="true" signature="532:894" ph="CREATE TABLE... replays" />
-            <marker date="1527669626320" expanded="true" signature="913:1143" ph="CREATE TABLE... hero_stats" />
-            <marker date="1527669626320" expanded="true" signature="1162:2643" ph="CREATE TABLE... played_heroes" />
-            <marker date="1527669626320" expanded="true" signature="2662:2772" ph="CREATE TABLE... replay_tracker" />
-            <marker date="1527669626320" expanded="true" signature="2791:3079" ph="CREATE TABLE... bans" />
-            <marker date="1527669626320" expanded="true" signature="3098:3169" ph="INSERT INTO `replay_tracker`... " />
-            <marker date="1527669626320" expanded="true" signature="3410:3563" ph="INSERT INTO hero_stats... " />
+            <marker date="1527755018601" expanded="true" signature="461:538" ph="DROP TABLE I... " />
+            <marker date="1527755018601" expanded="true" signature="635:997" ph="CREATE TABLE... replays" />
+            <marker date="1527755018601" expanded="true" signature="1016:1246" ph="CREATE TABLE... hero_stats" />
+            <marker date="1527755018601" expanded="true" signature="1265:2746" ph="CREATE TABLE... played_heroes" />
+            <marker date="1527755018601" expanded="true" signature="2765:2875" ph="CREATE TABLE... replay_tracker" />
+            <marker date="1527755018601" expanded="true" signature="2894:3182" ph="CREATE TABLE... bans" />
+            <marker date="1527755018601" expanded="true" signature="3201:3272" ph="INSERT INTO `replay_tracker`... " />
+            <marker date="1527755018601" expanded="true" signature="3513:3666" ph="INSERT INTO hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -530,40 +460,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while_back_end.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moretesting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.php" />
+    <entry file="file://$PROJECT_DIR$/while_back_end.php" />
+    <entry file="file://$PROJECT_DIR$/moretesting.php" />
     <entry file="file://$PROJECT_DIR$/DBManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="0" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1527668180438" expanded="true" signature="582:616" ph="SELECT last_... replay_tracker" />
-            <marker date="1527668180438" expanded="true" signature="886:943" ph="UPDATE replay_tracker... " />
-            <marker date="1527668180438" expanded="true" signature="1929:2128" ph="INSERT INTO replays... " />
-            <marker date="1527668180438" expanded="true" signature="2381:2431" ph="SELECT * FRO... replays" />
-            <marker date="1527668180438" expanded="true" signature="8641:10136" ph="INSERT INTO played_heroes... " />
-            <marker date="1527668180438" expanded="true" signature="13261:13285" ph="SELECT * FRO... hero_stats" />
-            <marker date="1527668180438" expanded="true" signature="13499:13601" ph="INSERT INTO hero_stats... " />
-            <marker date="1527668180438" expanded="true" signature="14907:15028" ph="UPDATE hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="637:671" ph="SELECT last_... replay_tracker" />
+            <marker date="1527754973654" expanded="true" signature="1005:1062" ph="UPDATE replay_tracker... " />
+            <marker date="1527754973654" expanded="true" signature="2048:2247" ph="INSERT INTO replays... " />
+            <marker date="1527754973654" expanded="true" signature="2621:2671" ph="SELECT * FRO... replays" />
+            <marker date="1527754973654" expanded="true" signature="9129:10624" ph="INSERT INTO played_heroes... " />
+            <marker date="1527754973654" expanded="true" signature="13749:13773" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754973654" expanded="true" signature="13987:14089" ph="INSERT INTO hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="15395:15516" ph="UPDATE hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -573,14 +485,14 @@
         <state relative-caret-position="1700">
           <caret line="100" column="24" lean-forward="false" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
           <folding>
-            <marker date="1527669626320" expanded="true" signature="358:435" ph="DROP TABLE I... " />
-            <marker date="1527669626320" expanded="true" signature="532:894" ph="CREATE TABLE... replays" />
-            <marker date="1527669626320" expanded="true" signature="913:1143" ph="CREATE TABLE... hero_stats" />
-            <marker date="1527669626320" expanded="true" signature="1162:2643" ph="CREATE TABLE... played_heroes" />
-            <marker date="1527669626320" expanded="true" signature="2662:2772" ph="CREATE TABLE... replay_tracker" />
-            <marker date="1527669626320" expanded="true" signature="2791:3079" ph="CREATE TABLE... bans" />
-            <marker date="1527669626320" expanded="true" signature="3098:3169" ph="INSERT INTO `replay_tracker`... " />
-            <marker date="1527669626320" expanded="true" signature="3410:3563" ph="INSERT INTO hero_stats... " />
+            <marker date="1527755018601" expanded="true" signature="461:538" ph="DROP TABLE I... " />
+            <marker date="1527755018601" expanded="true" signature="635:997" ph="CREATE TABLE... replays" />
+            <marker date="1527755018601" expanded="true" signature="1016:1246" ph="CREATE TABLE... hero_stats" />
+            <marker date="1527755018601" expanded="true" signature="1265:2746" ph="CREATE TABLE... played_heroes" />
+            <marker date="1527755018601" expanded="true" signature="2765:2875" ph="CREATE TABLE... replay_tracker" />
+            <marker date="1527755018601" expanded="true" signature="2894:3182" ph="CREATE TABLE... bans" />
+            <marker date="1527755018601" expanded="true" signature="3201:3272" ph="INSERT INTO `replay_tracker`... " />
+            <marker date="1527755018601" expanded="true" signature="3513:3666" ph="INSERT INTO hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -593,33 +505,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moretesting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.php" />
+    <entry file="file://$PROJECT_DIR$/moretesting.php" />
     <entry file="file://$PROJECT_DIR$/resetDB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
           <folding>
-            <marker date="1527669626320" expanded="true" signature="358:435" ph="DROP TABLE I... " />
-            <marker date="1527669626320" expanded="true" signature="532:894" ph="CREATE TABLE... replays" />
-            <marker date="1527669626320" expanded="true" signature="913:1143" ph="CREATE TABLE... hero_stats" />
-            <marker date="1527669626320" expanded="true" signature="1162:2643" ph="CREATE TABLE... played_heroes" />
-            <marker date="1527669626320" expanded="true" signature="2662:2772" ph="CREATE TABLE... replay_tracker" />
-            <marker date="1527669626320" expanded="true" signature="2791:3079" ph="CREATE TABLE... bans" />
-            <marker date="1527669626320" expanded="true" signature="3098:3169" ph="INSERT INTO `replay_tracker`... " />
-            <marker date="1527669626320" expanded="true" signature="3410:3563" ph="INSERT INTO hero_stats... " />
+            <marker date="1527755018601" expanded="true" signature="461:538" ph="DROP TABLE I... " />
+            <marker date="1527755018601" expanded="true" signature="635:997" ph="CREATE TABLE... replays" />
+            <marker date="1527755018601" expanded="true" signature="1016:1246" ph="CREATE TABLE... hero_stats" />
+            <marker date="1527755018601" expanded="true" signature="1265:2746" ph="CREATE TABLE... played_heroes" />
+            <marker date="1527755018601" expanded="true" signature="2765:2875" ph="CREATE TABLE... replay_tracker" />
+            <marker date="1527755018601" expanded="true" signature="2894:3182" ph="CREATE TABLE... bans" />
+            <marker date="1527755018601" expanded="true" signature="3201:3272" ph="INSERT INTO `replay_tracker`... " />
+            <marker date="1527755018601" expanded="true" signature="3513:3666" ph="INSERT INTO hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -629,14 +529,14 @@
         <state relative-caret-position="1938">
           <caret line="114" column="64" lean-forward="true" selection-start-line="114" selection-start-column="64" selection-end-line="114" selection-end-column="64" />
           <folding>
-            <marker date="1527668180438" expanded="true" signature="582:616" ph="SELECT last_... replay_tracker" />
-            <marker date="1527668180438" expanded="true" signature="886:943" ph="UPDATE replay_tracker... " />
-            <marker date="1527668180438" expanded="true" signature="1929:2128" ph="INSERT INTO replays... " />
-            <marker date="1527668180438" expanded="true" signature="2381:2431" ph="SELECT * FRO... replays" />
-            <marker date="1527668180438" expanded="true" signature="8641:10136" ph="INSERT INTO played_heroes... " />
-            <marker date="1527668180438" expanded="true" signature="13261:13285" ph="SELECT * FRO... hero_stats" />
-            <marker date="1527668180438" expanded="true" signature="13499:13601" ph="INSERT INTO hero_stats... " />
-            <marker date="1527668180438" expanded="true" signature="14907:15028" ph="UPDATE hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="637:671" ph="SELECT last_... replay_tracker" />
+            <marker date="1527754973654" expanded="true" signature="1005:1062" ph="UPDATE replay_tracker... " />
+            <marker date="1527754973654" expanded="true" signature="2048:2247" ph="INSERT INTO replays... " />
+            <marker date="1527754973654" expanded="true" signature="2621:2671" ph="SELECT * FRO... replays" />
+            <marker date="1527754973654" expanded="true" signature="9129:10624" ph="INSERT INTO played_heroes... " />
+            <marker date="1527754973654" expanded="true" signature="13749:13773" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754973654" expanded="true" signature="13987:14089" ph="INSERT INTO hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="15395:15516" ph="UPDATE hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -654,14 +554,14 @@
         <state relative-caret-position="459">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1527669626320" expanded="true" signature="358:435" ph="DROP TABLE I... " />
-            <marker date="1527669626320" expanded="true" signature="532:894" ph="CREATE TABLE... replays" />
-            <marker date="1527669626320" expanded="true" signature="913:1143" ph="CREATE TABLE... hero_stats" />
-            <marker date="1527669626320" expanded="true" signature="1162:2643" ph="CREATE TABLE... played_heroes" />
-            <marker date="1527669626320" expanded="true" signature="2662:2772" ph="CREATE TABLE... replay_tracker" />
-            <marker date="1527669626320" expanded="true" signature="2791:3079" ph="CREATE TABLE... bans" />
-            <marker date="1527669626320" expanded="true" signature="3098:3169" ph="INSERT INTO `replay_tracker`... " />
-            <marker date="1527669626320" expanded="true" signature="3410:3563" ph="INSERT INTO hero_stats... " />
+            <marker date="1527755018601" expanded="true" signature="461:538" ph="DROP TABLE I... " />
+            <marker date="1527755018601" expanded="true" signature="635:997" ph="CREATE TABLE... replays" />
+            <marker date="1527755018601" expanded="true" signature="1016:1246" ph="CREATE TABLE... hero_stats" />
+            <marker date="1527755018601" expanded="true" signature="1265:2746" ph="CREATE TABLE... played_heroes" />
+            <marker date="1527755018601" expanded="true" signature="2765:2875" ph="CREATE TABLE... replay_tracker" />
+            <marker date="1527755018601" expanded="true" signature="2894:3182" ph="CREATE TABLE... bans" />
+            <marker date="1527755018601" expanded="true" signature="3201:3272" ph="INSERT INTO `replay_tracker`... " />
+            <marker date="1527755018601" expanded="true" signature="3513:3666" ph="INSERT INTO hero_stats... " />
           </folding>
         </state>
       </provider>
@@ -671,41 +571,107 @@
         <state relative-caret-position="1853">
           <caret line="109" column="74" lean-forward="true" selection-start-line="109" selection-start-column="74" selection-end-line="109" selection-end-column="74" />
           <folding>
-            <marker date="1527668180438" expanded="true" signature="582:616" ph="SELECT last_... replay_tracker" />
-            <marker date="1527668180438" expanded="true" signature="886:943" ph="UPDATE replay_tracker... " />
-            <marker date="1527668180438" expanded="true" signature="1929:2128" ph="INSERT INTO replays... " />
-            <marker date="1527668180438" expanded="true" signature="2381:2431" ph="SELECT * FRO... replays" />
-            <marker date="1527668180438" expanded="true" signature="8641:10136" ph="INSERT INTO played_heroes... " />
-            <marker date="1527668180438" expanded="true" signature="13261:13285" ph="SELECT * FRO... hero_stats" />
-            <marker date="1527668180438" expanded="true" signature="13499:13601" ph="INSERT INTO hero_stats... " />
-            <marker date="1527668180438" expanded="true" signature="14907:15028" ph="UPDATE hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="637:671" ph="SELECT last_... replay_tracker" />
+            <marker date="1527754973654" expanded="true" signature="1005:1062" ph="UPDATE replay_tracker... " />
+            <marker date="1527754973654" expanded="true" signature="2048:2247" ph="INSERT INTO replays... " />
+            <marker date="1527754973654" expanded="true" signature="2621:2671" ph="SELECT * FRO... replays" />
+            <marker date="1527754973654" expanded="true" signature="9129:10624" ph="INSERT INTO played_heroes... " />
+            <marker date="1527754973654" expanded="true" signature="13749:13773" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754973654" expanded="true" signature="13987:14089" ph="INSERT INTO hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="15395:15516" ph="UPDATE hero_stats... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/20fa6350-fd06-4a64-accf-ff056914fb3c/console.sql" />
     <entry file="file://$PROJECT_DIR$/../untitled2/separetesting.php" />
-    <entry file="file://$PROJECT_DIR$/DBManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1513">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <marker date="1527668180438" expanded="true" signature="582:616" ph="SELECT last_... replay_tracker" />
-            <marker date="1527668180438" expanded="true" signature="886:943" ph="UPDATE replay_tracker... " />
-            <marker date="1527668180438" expanded="true" signature="1929:2128" ph="INSERT INTO replays... " />
-            <marker date="1527668180438" expanded="true" signature="2381:2431" ph="SELECT * FRO... replays" />
-            <marker date="1527668180438" expanded="true" signature="8641:10136" ph="INSERT INTO played_heroes... " />
-            <marker date="1527668180438" expanded="true" signature="13261:13285" ph="SELECT * FRO... hero_stats" />
-            <marker date="1527668180438" expanded="true" signature="13499:13601" ph="INSERT INTO hero_stats... " />
-            <marker date="1527668180438" expanded="true" signature="14907:15028" ph="UPDATE hero_stats... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front_end.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="86" lean-forward="false" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moretesting.php" />
+    <entry file="file://$PROJECT_DIR$/testing.php" />
+    <entry file="file://$PROJECT_DIR$/while_back_end.php" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back_end.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="263" column="49" lean-forward="true" selection-start-line="262" selection-start-column="70" selection-end-line="263" selection-end-column="49" />
+          <folding>
+            <marker date="1527754973654" expanded="true" signature="637:671" ph="SELECT last_... replay_tracker" />
+            <marker date="1527754973654" expanded="true" signature="1005:1062" ph="UPDATE replay_tracker... " />
+            <marker date="1527754973654" expanded="true" signature="2048:2247" ph="INSERT INTO replays... " />
+            <marker date="1527754973654" expanded="true" signature="2621:2671" ph="SELECT * FRO... replays" />
+            <marker date="1527754973654" expanded="true" signature="9129:10624" ph="INSERT INTO played_heroes... " />
+            <marker date="1527754973654" expanded="true" signature="13749:13773" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754973654" expanded="true" signature="13987:14089" ph="INSERT INTO hero_stats... " />
+            <marker date="1527754973654" expanded="true" signature="15395:15516" ph="UPDATE hero_stats... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <marker date="1527754973633" expanded="true" signature="426:788" ph="CREATE TABLE... replays" />
+            <marker date="1527754973633" expanded="true" signature="807:1037" ph="CREATE TABLE... hero_stats" />
+            <marker date="1527754973633" expanded="true" signature="1056:2537" ph="CREATE TABLE... played_heroes" />
+            <marker date="1527754973633" expanded="true" signature="2556:2666" ph="CREATE TABLE... replay_tracker" />
+            <marker date="1527754973633" expanded="true" signature="2685:2973" ph="CREATE TABLE... bans" />
+            <marker date="1527754973633" expanded="true" signature="2992:3063" ph="INSERT INTO `replay_tracker`... " />
+            <marker date="1527754973633" expanded="true" signature="3304:3457" ph="INSERT INTO hero_stats... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resetDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <marker date="1527755018601" expanded="true" signature="461:538" ph="DROP TABLE I... " />
+            <marker date="1527755018601" expanded="true" signature="635:997" ph="CREATE TABLE... replays" />
+            <marker date="1527755018601" expanded="true" signature="1016:1246" ph="CREATE TABLE... hero_stats" />
+            <marker date="1527755018601" expanded="true" signature="1265:2746" ph="CREATE TABLE... played_heroes" />
+            <marker date="1527755018601" expanded="true" signature="2765:2875" ph="CREATE TABLE... replay_tracker" />
+            <marker date="1527755018601" expanded="true" signature="2894:3182" ph="CREATE TABLE... bans" />
+            <marker date="1527755018601" expanded="true" signature="3201:3272" ph="INSERT INTO `replay_tracker`... " />
+            <marker date="1527755018601" expanded="true" signature="3513:3666" ph="INSERT INTO hero_stats... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hots_stats.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -718,93 +684,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moretesting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="57" column="36" lean-forward="false" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while_back_end.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resetDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <marker date="1527669626320" expanded="true" signature="358:435" ph="DROP TABLE I... " />
-            <marker date="1527669626320" expanded="true" signature="532:894" ph="CREATE TABLE... replays" />
-            <marker date="1527669626320" expanded="true" signature="913:1143" ph="CREATE TABLE... hero_stats" />
-            <marker date="1527669626320" expanded="true" signature="1162:2643" ph="CREATE TABLE... played_heroes" />
-            <marker date="1527669626320" expanded="true" signature="2662:2772" ph="CREATE TABLE... replay_tracker" />
-            <marker date="1527669626320" expanded="true" signature="2791:3079" ph="CREATE TABLE... bans" />
-            <marker date="1527669626320" expanded="true" signature="3098:3169" ph="INSERT INTO `replay_tracker`... " />
-            <marker date="1527669626320" expanded="true" signature="3410:3563" ph="INSERT INTO hero_stats... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back_end.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <marker date="1527669626356" expanded="true" signature="327:689" ph="CREATE TABLE... replays" />
-            <marker date="1527669626356" expanded="true" signature="708:938" ph="CREATE TABLE... hero_stats" />
-            <marker date="1527669626356" expanded="true" signature="957:2438" ph="CREATE TABLE... played_heroes" />
-            <marker date="1527669626356" expanded="true" signature="2457:2567" ph="CREATE TABLE... replay_tracker" />
-            <marker date="1527669626356" expanded="true" signature="2586:2874" ph="CREATE TABLE... bans" />
-            <marker date="1527669626356" expanded="true" signature="2893:2964" ph="INSERT INTO `replay_tracker`... " />
-            <marker date="1527669626356" expanded="true" signature="3205:3358" ph="INSERT INTO hero_stats... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/get_hero_stats.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <marker date="1527669626300" expanded="true" signature="246:293" ph="SELECT * FRO... hero_stats" />
+            <marker date="1527754474850" expanded="true" signature="319:366" ph="SELECT * FRO... hero_stats" />
           </folding>
         </state>
       </provider>
